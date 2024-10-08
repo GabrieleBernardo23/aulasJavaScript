@@ -24,3 +24,10 @@ console.log("------------");
 // let res = valor1 === valor2
 
 console.log(res);
+
+let dinheiro = 700;
+let folga = true;
+// >= R$ 500 
+let fds = 
+
+console.log();
