@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let nome = prompt(`Qual o nome do aluno?`);
+        let matricula = prompt(`Você é aluno ativo? (sim ou não)`);
+        let resp = matricula.toLowerCase() == "sim" ? 'Você tem R.A.' : 'Você não tem R.A.';
+        alert(resp)
+
+
+        // matricula.toUpperCase() // == SIM // deixa todos os caracteres em maiusculo
+        // matricula.toLowerCase() // == sim // deixa todos os caracteres em minusculo
+    </script>
+
+</body>
+
+</html>
